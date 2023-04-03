@@ -1,0 +1,15 @@
+name: First Workflow
+on: workflow_dispatch
+jobs: 
+  first-job:
+    runs-on: ubunto-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hello World"
+      - name: Print goodbye
+        with:
+          script: |
+            //get cenas
+            if (true){
+              echo "Done - Bye"
+            }
