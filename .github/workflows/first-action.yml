@@ -4,6 +4,7 @@ jobs:
   first-job:
     runs-on: ubunto-latest
     steps:
+      - uses: ./ 
       - name: Print greeting
         run: echo "Hello World"
       - name: Print goodbye
