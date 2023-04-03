@@ -8,9 +8,4 @@ jobs:
       - name: Print greeting
         run: echo "Hello World"
       - name: Print goodbye
-        with:
-          script: |
-            //get cenas
-            if (true){
-              echo "Done - Bye"
-            }
+        run: echo "Done - Bye"
